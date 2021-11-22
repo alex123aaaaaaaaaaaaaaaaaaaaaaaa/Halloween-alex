@@ -1,0 +1,58 @@
+/***** Hoja de estilo del ejercicio de halloween
+/***** 2º SMR - Curso 2021/2022
+/***** Autor.Alexander Romero Garcia *****/
+
+@font-face {
+    font-family: halloween;
+    src: url("../fonts/HALLOWEEN\ STORY.ttf");
+}
+@font-face {
+    font-family: arbol;
+    src:url("../fonts/Scary\ Hours.ttf")
+}
+
+body{background-color: black;
+    font-family: halloween;}
+
+#container {position:relative; /*fhguhrugheurhu*/
+            width: 1923px;
+            height: 1106PX;
+            background-image: url("../images/istockphoto-1177824148-612x612.jpg");
+            margin:100px auto;
+            color: white;
+            font-size: 3em;}
+
+        
+        
+
+#t1 {position:absolute;
+    top:10px;
+    text-shadow: 5px 5px 5px red;}
+#t2 {position: absolute;
+    top:200px;
+    font-family: arbol;
+    text-shadow: 5px 5px 5px red;}
+#t3 {position: absolute;
+    top:550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 10px 10px 10px black;
+}
+
+#arbol {position:absolute;
+        top:150px;
+        left:70px;
+        border: 5px solid white;            /*luego lo quito*/
+        width: 100px;
+        height: 80px;}
+#zz {position: absolute;
+    left: 800px;
+    visibility: hidden;}
+#pp {position: absolute;
+    right:300px;
+    visibility: hidden;}
+#calabaza {position:absolute;
+        left:100px;
+        top:800px;
+        border: 5px solid white;            /*luego lo quito*/
+        width: 400px;
+        height: 200px;}

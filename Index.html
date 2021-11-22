@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scary Halloween Alexander DURO</title>
+    <link rel="stylesheet" href="./styles/halloween.css">
+    <script src="./javascripts/halloween.js"></script>
+</head>
+<body onload="sonar('cancion');">
+    <audio id="grito">
+        <source= src="../Halloween/sounds/008562226_prev.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="cancion" controls>
+        <source= src="../Halloween/sounds/lullaby.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="terror">
+        <source= src="./sounds/009269148_prev.mp3" type="audio/mpeg">
+    </audio>
+    <!--ESTE EJERCICIO NO ES RESPONSIVE; ES SOLO PARA PCS-->
+    <div id="container">
+        <p id="t1">Una noche mas y sangre de mas</p>
+        <p id="t2">No te acerques al arbol</p>
+        <div id="arbol" onclick="mostrar(`zz`);sonar('grito')"; ondblclick="ocultar('zz');pausar('grito')">
+            <img id="zz" src="./images/c473a0f7735f1a29cf95bdfdf8319025.gif">
+        </div>
+    
+        <p id="t3">No te acerques a la calabaza naranja grande</p>
+       <div id="calabaza" onclick="mostrar('pp');sonar('terror')" ondblclick="ocultar('pp');pausar('terror')">
+       </div>
+            <img id="pp" src="./images/538013_d4f32.gif">
+    </div>
+        
+        
+</div>
+</body>
+</html>
